@@ -184,6 +184,25 @@
       .window { height: 40%; }
       .kettle { transform: translateX(-50%) scale(.8); }
     }
+    .kitchen {
+  width: min(720px, 100%);
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 720 / 844;
+  background: url("../images/kitchen.jpg") center / cover;
+  border: 0;
+}
+.window, .shelf, .cups, .counter, .kettle, .status {
+  display: none;
+}
+.steam {
+  left: 72%;
+  bottom: 52%;
+}
+.button {
+  bottom: 3%;
+  z-index: 3;
+}
   </style>
 </head>
 <body>
